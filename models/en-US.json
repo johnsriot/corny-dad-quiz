@@ -1,0 +1,95 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "corny dad quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartJokeIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me a joke",
+                        "tell me a corny joke",
+                        "tell me a joke",
+                        "tell me a corny dad joke",
+                        "give me a corny joke",
+                        "give me a corny dad joke"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "ANSWER_SLOT"
+                        }
+                    ],
+                    "samples": [
+                        "is it {answer}",
+                        "{answer}",
+                        "{answer} and {answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "ANSWER_SLOT",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "the other Half"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the door"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "their bark"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a dirty double-crosser"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wait to see what develops"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
